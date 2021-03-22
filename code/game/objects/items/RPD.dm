@@ -36,6 +36,8 @@ GLOBAL_LIST_INIT(atmos_pipe_recipes, list(
 		new /datum/pipe_info/pipe("Relief Valve (Binary)",		/obj/machinery/atmospherics/components/binary/relief_valve), //WS Edit - Port of Relief Valves from Cit
 		new /datum/pipe_info/pipe("Relief Valve (Unary)",		/obj/machinery/atmospherics/components/unary/relief_valve), //WS Edit - Port of Relief Valves from Cit
 		new /datum/pipe_info/meter("Meter"),
+		new /datum/pipe_info/pipe("Temperature Gate", 		/obj/machinery/atmospherics/components/binary/temperature_gate, TRUE), //WS Edit - Port of Temperature Gate from TG
+		new /datum/pipe_info/pipe("Temperature Pump", 		/obj/machinery/atmospherics/components/binary/temperature_pump, TRUE), //WS Edit - Port of Temperature Pump from TG
 	),
 	"Heat Exchange" = list(
 		new /datum/pipe_info/pipe("Pipe",				/obj/machinery/atmospherics/pipe/heat_exchanging/simple),
